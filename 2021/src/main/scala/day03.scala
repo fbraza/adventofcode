@@ -41,10 +41,4 @@ object binaryDiagnostic extends App {
       case _ => throw new Error("gaz needs to be of type Oxygen or Co2")
     }
   }
-
-  val test = open("day03/input02.txt")
-  val result1 = binaryPart2(test, gaz = Oxygen)
-  val result2 = binaryPart2(test, gaz = Co2)
-  val finalResult = result1 * result2
-  println(result1, result2, finalResult)
 }
