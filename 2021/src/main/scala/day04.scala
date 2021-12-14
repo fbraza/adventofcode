@@ -106,14 +106,4 @@ object giantSquid extends App {
     for (number <- numbers) { memo(number) = false }
     memo
   }
-
-  def selectWinning(boards: List[List[List[Int]]]) = {
-    boards
-  }
-
-  val data = etl("data/day04/input.txt")
-  val numberToCheck = data._1
-  val boardsToCheck = data._2
-  val result = findLastWinningBoard(numberToCheck, boardsToCheck)
-  println(result)
 }
