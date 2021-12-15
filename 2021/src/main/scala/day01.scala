@@ -1,6 +1,6 @@
 import scala.io.Source
 
-object sonarSweep extends {
+object day01 extends App {
   /**
     * Function used to prepare the data
     *

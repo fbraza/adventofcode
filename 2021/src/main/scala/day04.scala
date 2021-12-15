@@ -1,7 +1,7 @@
 import scala.io.Source
 import scala.collection.mutable
 
-object giantSquid extends App {
+object day04 extends App {
   val NEGATOR = -999999
   val INIMEMO = memo(etl("data/day04/input.txt")._1)
 

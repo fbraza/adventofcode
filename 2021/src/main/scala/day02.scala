@@ -1,6 +1,6 @@
 import scala.io.Source
 
-object positionCalculator extends App {
+object day02 extends App {
   def etl(filePath: String): List[(String, Int)] = {
     Source
       .fromFile(filePath)
@@ -37,9 +37,9 @@ object positionCalculator extends App {
       val move = moves.head
       val updatedMoves = moves.tail
       move match {
-        case move if move._1 == "forward" => calculateDirectionsNewRulesPart2(updatedMoves, aim, depth + move._2 * aim, forward + move._2, up, down)
-        case move if move._1 == "down"    => calculateDirectionsNewRulesPart2(updatedMoves, aim + move._2, depth, forward, up, down)
-        case move if move._1 == "up"      => calculateDirectionsNewRulesPart2(updatedMoves, aim - move._2, depth, forward, up, down)
+        case move if move._1 == s"forward" => calculateDirectionsNewRulesPart2(updatedMoves, aim, depth + move._2 * aim, forward + move._2, up, down)
+        case move if move._1 == s"down"    => calculateDirectionsNewRulesPart2(updatedMoves, aim + move._2, depth, forward, up, down)
+        case move if move._1 == s"up"      => calculateDirectionsNewRulesPart2(updatedMoves, aim - move._2, depth, forward, up, down)
       }
     }
   }

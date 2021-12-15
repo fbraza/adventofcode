@@ -1,7 +1,7 @@
 import scala.io.Source
 import scala.annotation.tailrec
 
-object binaryDiagnostic extends App {
+object day03 extends App {
   def open(path: String): List[String] =
     Source
       .fromFile(path)
