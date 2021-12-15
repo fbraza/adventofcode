@@ -10,3 +10,4 @@ Solutions are not necessarly scala idiomatic and do not harness all its features
 - [Day 02 solution](https://github.com/fbraza/adventofcode/blob/master/2021/src/main/scala/day02.scala)
 - [Day 03 solution](https://github.com/fbraza/adventofcode/blob/master/2021/src/main/scala/day03.scala)
 - [Day 04 solution](https://github.com/fbraza/adventofcode/blob/master/2021/src/main/scala/day04.scala)
+- [Day 05 solution](https://github.com/fbraza/adventofcode/blob/master/2021/src/main/scala/day05.scala)
