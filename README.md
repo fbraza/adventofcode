@@ -1,6 +1,6 @@
 # Advent of Code
 
-This repository will contain my solutions for the Advent of Code challenges. I am starting seriously this year (2021) and will see until which day I will manage to go. AsI cannot follow the daily pace, I intend to solve them at my own pace and will also tackle the previous years challenges. This will be a good way to shape my coding skills in different languages (Python, Scala, Rust, Crystal)
+This repository will contain my solutions for the Advent of Code challenges. I am starting seriously this year (2021) and will see until which day I will manage to go. AsI cannot follow the daily pace, I intend to solve them at my own pace and will also tackle the previous years challenges. This will be a good way to shape my coding skills in different languages (Python, Scala and Rust)
 
 ## 2021 with Scala
 
